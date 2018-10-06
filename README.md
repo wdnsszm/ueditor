@@ -1,6 +1,8 @@
 # ueditor
 springboot整合ueditor实现 主要解决了图片及视频上传及数据回显的问题
+虽然说不是很难，但是觉着思考与解决问题的过程比问题本身更重要，所以把整个过程记录下来:)
 公司的一个项目  后端是springboot，用的是技术部自己的框架，无非就是整合了ssm，spring security，flowable工作流等等东西。前端一开始准备用react，后来因为不知道啥原因，还是改用的bootstrap和jquery。
 由于百度的ueditor只提供了后端jsp的源码，对于使用纯html或前后端分离的生产环境，需要开发者自己修改源码来整合项目
 
-*首先将主要的jar包引入
+首先将主要的jar包引入 之前在网上找的demo是使用的thymyleaf做模板引擎，这里没有使用（使用模板引擎的具体例子:https://juejin.im/entry/58ec6da7ac502e006badd7c0）
+
