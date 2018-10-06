@@ -1,2 +1,6 @@
 # ueditor
-前后端分离整合ueditor实现
+springboot整合ueditor实现 主要解决了图片及视频上传及数据回显的问题
+公司的一个项目  后端是springboot，用的是技术部自己的框架，无非就是整合了ssm，spring security，flowable工作流等等东西。前端一开始准备用react，后来因为不知道啥原因，还是改用的bootstrap和jquery。
+由于百度的ueditor只提供了后端jsp的源码，对于使用纯html或前后端分离的生产环境，需要开发者自己修改源码来整合项目
+
+*首先将主要的jar包引入
